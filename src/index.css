@@ -1,0 +1,43 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Futura PT';
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  color: #000000;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  letter-spacing: 0.05rem;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./components/fonts/FuturaPT-Medium.eot');
+  src: local('fonts/Futura PT Medium'), local('fonts/FuturaPT-Medium'),
+    url('./components/fonts/FuturaPT-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('./components/fonts/FuturaPT-Medium.woff') format('woff'),
+    url('./components/fonts/FuturaPT-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+}

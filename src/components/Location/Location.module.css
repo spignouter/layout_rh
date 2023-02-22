@@ -1,0 +1,97 @@
+.location {
+  font-size: 1.8rem;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr 0.1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: '. locationTitle . . . .' '. locationDeadline locationDeadline1 . locationButtons .' '. locationPayment locationPayment1 . . .' '. locationPayment locationPayment2 . . .' '. locationPayment locationPayment3 . . .' '. locationCharacteristics locationCharacteristics1 . . .' '. locationCharacteristics locationCharacteristics2 . . .' '. locationCharacteristics locationCharacteristics3 . . .' '. locationCharacteristics locationCharacteristics4 . . .' '. locationCharacteristics locationCharacteristics5 . . .' '. locationCharacteristics locationCharacteristics6 . . .' '. locationCommunications locationCommunications1 . . .' '. locationCommunications locationCommunications2 . . .' '. locationCommunications locationCommunications3 . . .';
+}
+
+.locationTitle {
+  grid-area: locationTitle;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.locationTitle1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.locationTitle2 {
+  grid-area: 2/ 1 / 2 / 1;
+}
+
+.locationDeadline {
+  grid-area: locationDeadline;
+}
+
+.locationDeadline1 {
+  grid-area: locationDeadline1;
+}
+
+.locationPayment {
+  grid-area: locationPayment;
+}
+
+.locationPayment1 {
+  grid-area: locationPayment1;
+}
+
+.locationPayment2 {
+  grid-area: locationPayment2;
+}
+
+.locationPayment3 {
+  grid-area: locationPayment3;
+}
+
+.locationCharacteristics {
+  grid-area: locationCharacteristics;
+}
+
+.locationCharacteristics1 {
+  grid-area: locationCharacteristics1;
+}
+
+.locationCharacteristics2 {
+  grid-area: locationCharacteristics2;
+}
+
+.locationCharacteristics3 {
+  grid-area: locationCharacteristics3;
+}
+
+.locationCharacteristics4 {
+  grid-area: locationCharacteristics4;
+}
+
+.locationCharacteristics5 {
+  grid-area: locationCharacteristics5;
+}
+
+.locationCharacteristics6 {
+  grid-area: locationCharacteristics6;
+}
+
+.locationCommunications {
+  grid-area: locationCommunications;
+}
+
+.locationCommunications1 {
+  grid-area: locationCommunications1;
+}
+
+.locationCommunications2 {
+  grid-area: locationCommunications2;
+}
+
+.locationCommunications3 {
+  grid-area: locationCommunications3;
+}
+
+.locationButtons {
+  grid-area: locationButtons;
+}
